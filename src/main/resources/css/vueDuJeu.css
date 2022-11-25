@@ -1,0 +1,23 @@
+.topPane {
+    -fx-background-color: #e0c9b1;
+    -fx-pref-height: 20;
+    -fx-min-height: 5;
+}
+
+.leftPane {
+    -fx-background-color: #e0c9b1;
+    -fx-min-width: 100;
+    -fx-pref-width: 200;
+}
+
+.bottomPane {
+    -fx-background-color: #f1e9da;
+    -fx-pref-height: 180;
+    -fx-min-height: 80;
+}
+
+.rightPane {
+    -fx-background-color: #e0c9b1;
+    -fx-pref-width: 20;
+    -fx-min-width: 5;
+}

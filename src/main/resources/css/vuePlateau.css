@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+#routes Rectangle {
+    -fx-fill: "Transparent";
+    //-fx-stroke: "blue";
+    -fx-stroke-width: 2;
+}
+
+#villes Circle {
+    -fx-fill: "Transparent";
+    //-fx-stroke: "red";
+    -fx-stroke-width: 2;
+}
+
+
