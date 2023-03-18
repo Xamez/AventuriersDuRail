@@ -112,7 +112,7 @@ public class VueFenetreDemarrage extends Stage {
         Scene scene = new Scene(stackPane, background.getWidth()/2, background.getHeight()/2);
 
         setScene(scene);
-        setTitle("Les aventuriers du rails !");
+        setTitle("Les aventuriers du rail !");
         setResizable(false);
         centerOnScreen();
     }

@@ -77,7 +77,7 @@ public class VueFinDuJeu extends Stage {
         Scene scene = new Scene(stackPane, background.getWidth() * 1.2, background.getHeight() * 1.2);
 
         setScene(scene);
-        setTitle("Les aventuriers du rails !");
+        setTitle("Les aventuriers du rail !");
         setResizable(false);
         centerOnScreen();
     }
