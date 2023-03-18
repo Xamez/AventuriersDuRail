@@ -30,15 +30,15 @@ public class VueFinDuJeu extends Stage {
         backgroundView.setFitHeight(background.getHeight() * 1.2);
 
         VBox vBox = new VBox();
-        vBox.setAlignment(Pos.TOP_CENTER);
+        vBox.setAlignment(Pos.BOTTOM_CENTER);
         HBox hBox = new HBox();
-        hBox.setAlignment(Pos.CENTER);
-        hBox.setSpacing(30);
+        hBox.setAlignment(Pos.BOTTOM_CENTER);
+        hBox.setSpacing(20);
 
         ArrayList<Joueur> joueurs = new ArrayList<>(jeu.getJoueurs());
         joueurs.sort((j1, j2) -> j2.getScore() - j1.getScore()); // plus grand au plus petit
 
-        vBox.setSpacing(joueurs.get(0).getScore());
+        vBox.setSpacing(joueurs.get(0).getScore() + 50);
 
         Label title = new Label(joueurs.get(0).getNom() + " a gagné !");
         title.setStyle("-fx-text-fill: #FF7B00; -fx-font-size: 36px; -fx-font-family: 'Bangers'; -fx-font-weight: bold;");
